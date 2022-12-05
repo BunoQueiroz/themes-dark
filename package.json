@@ -1,0 +1,23 @@
+{
+  "name": "dark-bqueiroz",
+  "displayName": "dark-bqueiroz",
+  "description": "Para amantes de temas escuros",
+  "version": "0.0.5",
+  "publisher": "dark-bqueiroz",
+  "icon": "img/bruno-queiroz.JPEG",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-color-theme.json"
+      }
+    ]
+  }
+}
